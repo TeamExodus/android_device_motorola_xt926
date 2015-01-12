@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,11 +26,11 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from xt926 device
-$(call inherit-product, device/motorola/xt926/device_xt926.mk)
+$(call inherit-product, device/motorola/xt926/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := xt926
 PRODUCT_NAME := full_xt926
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := XT926
+PRODUCT_MODEL := DROID RAZR HD
 PRODUCT_MANUFACTURER := motorola
