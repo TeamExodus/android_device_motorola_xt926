@@ -1,0 +1,14 @@
+[
+  {
+   "repository": "device_motorola_msm8960-common",
+   "target_path": "device/motorola/msm8960-common"
+  },
+  {
+   "repository": "device_motorola_qcom-common",
+   "target_path": "device/motorola/qcom-common"
+  },
+  {
+   "repository": "kernel_motorola_msm8960dt-common",
+   "target_path": "kernel/motorola/msm8960dt-common"
+  }
+]
